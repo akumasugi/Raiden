@@ -29,13 +29,8 @@ export default class Command extends BaseCommand {
 			return void (await M.reply(`Please provide the Broadcast Message.`));
 		const term = joined.trim();
 		const gifs = [
-			"https://telegra.ph/file/a3bba103ea7daf132a3d6.mp4",
-			"https://telegra.ph/file/a3bba103ea7daf132a3d6.mp4",
-			"https://telegra.ph/file/a3bba103ea7daf132a3d6.mp4",
-			"https://telegra.ph/file/a3bba103ea7daf132a3d6.mp4",
-			"https://telegra.ph/file/a3bba103ea7daf132a3d6.mp4",
-			"https://telegra.ph/file/a3bba103ea7daf132a3d6.mp4",
-			"https://telegra.ph/file/a3bba103ea7daf132a3d6.mp4",
+			"https://c.tenor.com/iwxQK4D4If4AAAPo/baal-raiden-shogun.mp4",
+			
 		];
 		const selected = gifs[Math.floor(Math.random() * gifs.length)];
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -46,7 +41,7 @@ export default class Command extends BaseCommand {
 			.map((jids) => (jids.includes("g.us") ? jids : null))
 			.filter((v) => v);
 		for (let i = 0; i < chats.length; i++) {
-			const text = `*📢[⚡INAZUMA⚡ BROADCAST」📢*\n\n${term}\n\n Regards ~ *${M.sender.username}*`;
+			const text = `*📢[⚡RAIDEN⚡ BROADCAST」📢*\n\n${term}\n\n Regards ~ *${M.sender.username}*`;
 			this.client.sendMessage(chats[i], { url: selected }, MessageType.video, {
 				mimetype: Mimetype.gif,
 				caption: `${text}`,
