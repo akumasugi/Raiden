@@ -9,7 +9,7 @@
 
 > A Fully Modular and Efficient Bot <br>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/AT3NA/raiden-shougen.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/akumasugi/Raiden.git)
 
 </div><br/>
 <br/>
@@ -26,12 +26,12 @@
 ## 💻 Deploy/Hosting Guide
 
 -   Section Moved to
-    [RAIDEN SHOUGEN GUIDES](https://youtu.be/KVrt3iKO4L0)
+    [RAIDEN SHOUGEN GUIDES](https://chat.whatsapp.com/EeIT4nf7PBUD8Kwbm4FgJC)
 
 ## 🍥 Features of the Repo
 
 -   To view all features, click
-    here➡️[Raiden_featuresList.md](https://github.com/at3na/raiden-shougen/blob/main/Features.md)
+    here➡️[Raiden_featuresList.md](https://github.com/akumasugi/Raiden/blob/main/Features.md)
 
 ## 💪 Contribution
 
