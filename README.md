@@ -1,7 +1,7 @@
 <div align="center">
-<a href="https://github.com/iamherok/Cara_public"><img src="https://telegra.ph/file/d29e74c2d3bd096a71db8.png" alt="chitoge" border="0"></a>
+<a href="https://github.com/iamherok/Cara_public"><img src="https://i.ibb.co/x1jcS2w/2557ca680a037ecac23bcea30722136e.jpg" alt="chitoge" border="0"></a>
 
-# **RAIDEN SHOUGEN: A WhatsApp BOT WITH RICH NSFW FEATURES BASED ON CHITOGE.</h1>**
+# **RAIDEN SHOUGEN: A WhatsApp BOT WITH RICH NSFW FEATURES.</h1>**
 
 [![CodeFactor](https://www.codefactor.io/repository/github/shineiichijo/chitoge/badge)](https://www.codefactor.io/repository/github/shineiichijo/chitoge)
 
