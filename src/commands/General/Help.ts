@@ -45,9 +45,9 @@ export default class Command extends BaseCommand {
             let text = `
 ╭─「(づ￣ 3￣)づ」
 │⋊ 𝕌𝕤𝕖𝕣: *${M.sender.username}*
-│⋊ ℕ𝕒𝕞𝕖: RAIDEN SHOUGEN BY HARAJIT ☮️
+│⋊ ℕ𝕒𝕞𝕖: RAIDEN SHOUGEN
 │⋊ ℙ𝕣𝕖𝕗𝕚𝕩: ${this.client.config.prefix}
-│⋊ 𝕆𝕨𝕟𝕖𝕣: *${this.client.config.prefix}mod* Don't Ask Mods if you want to add me in your Group
+│⋊ 𝕆𝕨𝕟𝕖𝕣: AKUMA
 ╰────────────┈平和                            \n\n`
             const keys = Object.keys(categories)
             for (const key of keys)
@@ -62,7 +62,7 @@ export default class Command extends BaseCommand {
  ──❅┈[ *GOD OF ETERNITY* ]┈❅───
 ┌────────────┈❅
 │   ☯️ RAIDEN SHOUGEN ☮️
-│    ©ASUNA MIRROR
+│    ©AKUMA
 └────────────┈⁂
 ❅┈[𝐇𝐚𝐯𝐞 𝐆𝐫𝐞𝐚𝐭 𝐃𝐚𝐲]┈❅
 🎗 *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*` }
