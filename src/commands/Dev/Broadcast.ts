@@ -29,7 +29,7 @@ export default class Command extends BaseCommand {
 			return void (await M.reply(`Please provide the Broadcast Message.`));
 		const term = joined.trim();
 		const gifs = [
-			"https://c.tenor.com/iwxQK4D4If4AAAPo/baal-raiden-shogun.mp4",
+			"https://c.tenor.com/IFlPrjP_hMUAAAPo/raiden-shogun-genshin-impact.mp4",
 			
 		];
 		const selected = gifs[Math.floor(Math.random() * gifs.length)];
