@@ -12,8 +12,8 @@
       "whatsapp-sticker-bot",
       "whatsapp-botto"
   ],
-  "website": "https://github.com/AT3NA/raiden-shougen/blob/main/README.md",
-  "repository": "https://github.com/at3na.git",
+  "website": "https://github.com/akumasugi/Raiden/blob/main/README.md",
+  "repository": "https://github.com/akumasugi/Raiden.git",
   "logo": "https://telegra.ph/file/d29e74c2d3bd096a71db8.png",
   "success_url": "/",
   "env": {
