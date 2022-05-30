@@ -34,7 +34,7 @@ export default class Command extends BaseCommand {
 		} catch (err) {
 			M.reply(`Profile Picture not Accessible of ${username} must be ugly probably`);
 			pfp =
-				"https://i.ibb.co/x1jcS2w/2557ca680a037ecac23bcea30722136e.jpg";
+				"https://i.ibb.co/zJkfPBB/AE-Entropy-on-Twitter.png";
 		}
 		const exp = (await this.client.getUser(user)).Xp;
 		let role: string;
