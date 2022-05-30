@@ -11,7 +11,7 @@ export default class Command extends BaseCommand {
             command: 'akuma',
             description: 'Displays info about akuma.',
             category: 'general',
-            usage: `${client.config.prefix}natsu`
+            usage: `${client.config.prefix}Raiden`
         })
     }
 
@@ -22,7 +22,7 @@ export default class Command extends BaseCommand {
         let rin = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: rin }, MessageType.image, {quoted:M.WAMessage,
             mimetype: Mimetype.jpeg,
-            caption: `🔥𝗛𝗘𝗟𝗟𝗢!❄️I'm 𝐀𝐊𝐔𝐌𝐀 an ordinary guy who loves watching anime & play games🎮. I'm a BCA Student🤍relationship with 𝐙𝐄𝐑𝐎❤️  
+            caption: `⚡𝗛𝗘𝗟𝗟𝗢!❄️I'm 𝐀𝐊𝐔𝐌𝐀 an ordinary guy who loves watching anime & play games🎮. I'm a BCA Student🤍relationship with 𝐙𝐄𝐑𝐎❤️  
             
 🍀𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩;
 Wa.me/+917892202052
