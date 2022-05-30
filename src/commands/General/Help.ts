@@ -43,11 +43,11 @@ export default class Command extends BaseCommand {
 				}
 			}
             let text = `
-╭─「(づ￣ 3￣)づ」
-│⋊ 𝕌𝕤𝕖𝕣: *${M.sender.username}*
-│⋊ ℕ𝕒𝕞𝕖: RAIDEN SHOUGEN
-│⋊ ℙ𝕣𝕖𝕗𝕚𝕩: ${this.client.config.prefix}
-│⋊ 𝕆𝕨𝕟𝕖𝕣: AKUMA
+╭─「( ꈍᴗꈍ)」
+│⋊ 𝐔𝐬𝐞𝐫: *${M.sender.username}*
+│⋊ 𝐍𝐚𝐦𝐞: 𝐑𝐀𝐈𝐃𝐄𝐍 𝐒𝐇𝐎𝐔𝐆𝐄𝐍
+│⋊ 𝐏𝐫𝐞𝐟𝐢𝐱: ${this.client.config.prefix}
+│⋊ 𝐎𝐰𝐧𝐞𝐫: https://www.instagram.com/akuma__24/?hl=en
 ╰────────────┈平和                            \n\n`
             const keys = Object.keys(categories)
             for (const key of keys)
@@ -59,10 +59,10 @@ export default class Command extends BaseCommand {
             return void this.client.sendMessage(M.from, { url: chitoge }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
             caption: `${text} 
- ──❅┈[ *GOD OF ETERNITY* ]┈❅───
+ ──❅┈[ *𝐆𝐎𝐃 𝐎𝐅 𝐄𝐓𝐄𝐑𝐍𝐈𝐓𝐘* ]┈❅───
 ┌────────────┈❅
-│   ☯️ RAIDEN SHOUGEN ☮️
-│    ©AKUMA
+│   ☯️ 𝐑𝐀𝐈𝐃𝐄𝐍 𝐒𝐇𝐎𝐔𝐆𝐄𝐍 ☮️
+│    ©𝐀𝐊𝐔𝐌𝐀
 └────────────┈⁂
 ❅┈[𝐇𝐚𝐯𝐞 𝐆𝐫𝐞𝐚𝐭 𝐃𝐚𝐲]┈❅
 🎗 *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*` }
